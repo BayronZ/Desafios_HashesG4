@@ -19,8 +19,8 @@ Diciembre: 21000
 # Uso:
 # filter 45000
 
-#metodo llamado filter que reciba un hash y un parámetro ingresado por el usuario
-#Debe retornar un hash con los valores superiores a un parámetro
+# metodo llamado filter que reciba un hash y un parámetro ingresado por el usuario
+# Debe retornar un hash con los valores superiores a un parámetro
 
 def filter(hash , reference)
     hash.select do |key, value|
